@@ -5,10 +5,17 @@
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 35px;
 }
 /* nav related style */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-title{
  font-size: 45px;
@@ -20,6 +27,7 @@ nav{
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
