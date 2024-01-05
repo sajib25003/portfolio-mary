@@ -1,7 +1,8 @@
 /* common shared styles */
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
+
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
@@ -11,43 +12,110 @@
     font-size: 20px;
     padding: 15px 35px;
 }
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.section-description{
+    color:#757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
 /* nav related style */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
 }
-.nav-title{
- font-size: 45px;
- font-weight: 800;   
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
 }
-.text-primary{
-    color: 
-    #fd6e0a;
+
+.text-primary {
+    color:
+        #fd6e0a;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #757575;
 }
+
 /* header related styles */
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url(Assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
 /* banner related styles */
-.banner{
-    padding: 30px 200px 30px 150px;
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    color: black;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.banner-text {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+/* main section styles */
+main {
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 130px;
 }
