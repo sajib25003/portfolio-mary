@@ -157,6 +157,11 @@ main section {
 }
 
 /* Resume Summary Section related style */
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
 .resume-title {
     color: #474747;
     font-size: 30px;
@@ -167,16 +172,26 @@ main section {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .resume-item-institution {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .resume-item-description {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+}
+.resume-container hr{
+    margin: 30px 10px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
