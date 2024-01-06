@@ -158,10 +158,11 @@ main section {
 
 /* Resume Summary Section related style */
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 50px;
 }
+
 .resume-title {
     color: #474747;
     font-size: 30px;
@@ -188,18 +189,52 @@ main section {
     font-size: 16px;
     font-weight: 400;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px 10px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
 
 /* footer section */
-footer{
+footer {
     display: flex;
+    gap: 100px;
     background-color: #FFF8F3;
     padding: 130px 230px;
     margin-top: 130px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: #757575;
+    width: 461px;
+    background-color: white;
+    border: 0;
+}
+
+footer .section-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-column .section-title{
+    margin-bottom: 20px;
+}
+
+.social-link a{
+    margin-right: 24px;
+    width: 24px;
 }
